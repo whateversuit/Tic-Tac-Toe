@@ -10,3 +10,13 @@
 // 6. Build logic check for game over (3 in a row or tie)
 // 7. clean up interface - start restart button. Add display showing winner.
 // 8. OPTIONAL - Create AI to play against.
+
+
+// gamaBoard 
+const gameBoard = (() => {
+    
+    const gameBoardArray = ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x'];
+    console.log(gameBoardArray)
+
+})();
+
