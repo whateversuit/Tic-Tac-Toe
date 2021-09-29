@@ -16,7 +16,17 @@
 const gameBoard = (() => {
     
     const gameBoardArray = ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x'];
-    console.log(gameBoardArray)
+    console.log(gameBoardArray);
+    
+    
+    // render contents of gameboardarray to HTML on page
+    function _render(){
+
+    };
 
 })();
+
+const playerOne = (playerOne) =>{};
+
+const playerTwo = (playerTwo) =>{};
 
