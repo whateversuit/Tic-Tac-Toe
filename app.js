@@ -21,9 +21,9 @@ const gameBoard = (() => {
     
     // render contents of gameboardarray to HTML on page
     function _render(){
-
+        return gameBoardArray;
     };
-
+return gameBoardArray;
 })();
 
 const playerOne = (playerOne) =>{};
