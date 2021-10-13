@@ -27,7 +27,16 @@ const gameBoard = (() => {
     return {gameBoardArray};
 })();
 
-const playerOne = (playerOne) =>{};
+//player factory functions
+const playerOne = (name) => {
+    return {name}
+};
 
-const playerTwo = (playerTwo) =>{};
+// const emil = playerOne('Emil')
+// console.log(emil.name)
 
+const playerTwo = (name) =>{
+    return {name}
+};
+
+//const anna = playerTwo('Anna')
