@@ -16,27 +16,35 @@
 const gameBoard = (() => {
     
     const gameBoardArray = ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x'];
-    console.log(gameBoardArray);
-    
     
     // render contents of gameboardarray to HTML on page
-    function _render(){
-    
+    const _render = () => {
+        gameBoardArray.push("hello");
+        return gameBoardArray 
+        
+        
        
+        
     };
-    return {gameBoardArray};
-})();
+    return { gameBoardArray, _render};
+}
+)();
 
 //player factory functions
 const playerOne = (name) => {
     return {name}
 };
-
 // const emil = playerOne('Emil')
 // console.log(emil.name)
 
 const playerTwo = (name) =>{
     return {name}
 };
-
 //const anna = playerTwo('Anna')
+
+const newGame = () => {
+    // create playerOne, playerTwo
+    // if playerONe and playerTwo already exists, clear gameBoardArray
+    _render();
+
+}
