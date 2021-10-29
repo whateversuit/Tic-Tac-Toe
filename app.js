@@ -42,6 +42,7 @@ const playerTwo = (name) =>{
 };
 //const anna = playerTwo('Anna')
 
+
 const newGame = () => {
     // create playerOne, playerTwo
     // if playerONe and playerTwo already exists, clear gameBoardArray
